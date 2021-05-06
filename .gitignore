@@ -1,0 +1,6 @@
+*.class
+bin/
+.classpath
+.idea/.name
+.idea/vcs.xml
+license.txt

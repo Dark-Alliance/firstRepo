@@ -5,6 +5,7 @@ public class second {
      char c = '\u0000';
 
         System.out.println(c);
+        System.out.println("hello");
 
      
     }
