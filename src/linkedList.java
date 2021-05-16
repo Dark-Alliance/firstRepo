@@ -16,6 +16,7 @@ public class linkedList {
 
         else{
             orderlist.add(order);
+            System.out.println("test");
         }
 
         
