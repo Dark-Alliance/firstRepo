@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -17,6 +18,7 @@ public class linkedList {
         else{
             orderlist.add(order);
             System.out.println("test");
+            System.out.println("testfailedCheckTwo");
         }
 
         
