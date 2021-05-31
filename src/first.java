@@ -12,6 +12,7 @@ public class first {
         String input = in.nextLine();
 
         System.out.println(input);
+        System.out.println("hello");
        
 
 

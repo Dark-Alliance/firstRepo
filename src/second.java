@@ -6,6 +6,7 @@ public class second {
 
         System.out.println(c);
         System.out.println("hello");
+        System.out.println("Bye");
 
      
     }
