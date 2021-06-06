@@ -3,20 +3,28 @@
 import java.util.Scanner;
 
 public class first {
-    public static void main(String[] args) {
-
-        String name;
-        Scanner in = new Scanner(System.in);
-
-        System.out.println("Enter your name here: ");
-        String input = in.nextLine();
-
-        System.out.println(input);
-        System.out.println("hello");
-       
-
-
-
+    int n=1;
+    public  void main(String[] args) {
+        odd();
 
     }
+
+    void odd(){
+        if(n<=10){
+            System.out.println(n+1);
+            n++;
+            even();
+        }
+        return;
+    }
+
+         void even(){
+        if(n<=10){
+            System.out.println(n+1);
+            n++;
+            odd();
+        }
+        return;
+    }
 }
+
